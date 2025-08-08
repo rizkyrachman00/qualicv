@@ -1,11 +1,11 @@
 <script setup lang="ts">
+import Navbar from '@/components/Navbar.vue';
 </script>
 
 <template>
-    <main>
-        <div>
-            <h1 class="text-3xl text-blue-400 text-center pt-10">Hallo App</h1>
-        </div>
+    <main class="bg-[url('images/bg-main.svg')] bg-cover">
+        <Navbar />
+        <RouterView />
     </main>
 </template>
 
